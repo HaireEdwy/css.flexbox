@@ -7,8 +7,27 @@
     height: 100px;
     text-align: center;
 }
+
+.parent-box div:nth-child(2) {
+    background-color: antiquewhite;
+}
+
+.parent-box div:nth-child(3) {
+    background-color: khaki;
+}
+
 .parent-box {
     display: flex;
     background-color: bisque;
-    padding: 20px;
+    padding: 40px 20px 20px 20px /* shothand para padding-top, padding-right, padding-botton(fundo), padding-left*/
+}
+
+.parent-box > p {
+    position: absolute;
+    margin-top: -30px;
+    left: 25px;
+}
+
+#justify-content .parent-box {
+    justify-content: center;
 }
