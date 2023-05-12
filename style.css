@@ -1,16 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Permanent+Marker&display=swap');
 
 :root {
     font-family: 'Dancing Script', cursive;
+font-family: 'Permanent Marker', cursive;
 }
-.page-tittle {
+.inicial-text {
     text-align: center;
-    font-weight: 900;
+    font-weight:900;
 }
 
 .property-section .property-tittle {
     text-align: center;
-    font-weight: 600;
+    font-weight:800;
 }
 .child-box {
     /*border-color: black;
@@ -61,3 +62,11 @@
 #jc-space-evenly .parent-box {
     justify-content: space-evenly;
 }
+
+/*display: flex
+justify-content: (cada possível valor)
+flex-direction: (cada possível valor)
+align-itens: (cada possível valor)
+flex-wrap: (cada possível valor)
+flex-flow: (shorthand para flex-direction + flex-wrap)
+align-content: (cada possível valor)*/
