@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,62 +8,122 @@
     <title>Propriedades CSS Flexbox</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <h1 class="pagetittle">Propriedades CSS do Flexbox</h1>
     
     <section class="property-section"id="display-flex">
-    <h2 class="property-tittle">display:</h2>
-        <p class="property-explanation">
-            Essa é a primeira propriedade que precisa ser declarada com o valor "flex" para que o flexbox funcione.
+        
+        <h2 class="property-tittle">display:</h2>
+        <p class="property-explanation">Essa é a primeira propriedade que precisa ser declarada com o valor "flex" para que o flexbox funcione.
         </p>
-    <div class="parent-box">
-        <p>parent-box</p>
-        <div class="child-box">
-            <p>1</p>
-            <p>child-box</p>
+        <div class="parent-box">
+            <p>caixa-pai</p>
+            <div class="child-box">
+                <p>1</p>
+                <p>caixa-filho</p>
+            </div>
+            <div class="child-box">
+                <p>2</p>
+                <p>caixa-filho</p>
+            </div>
+            <div class="child-box">
+                <p>3</p>
+                <p>caixa-filho</p>
+            </div>
         </div>
-
-        <div class="child-box">
-            <p>2</p>
-            <p>child-box</p>
-        </div>
-
-        <div class="child-box">
-            <p>3</p>
-            <p>child-box</p>
-        </div>
-
-    </div>
    </section>
 
    <section class="property-section"id="justify-content">
 
-    <h2 class="property-tittle">justify-content:</h2>
+        <h2 class="property-tittle">justify-content:</h2>
 
-    <h3 class="property-tittle">justify-content: center</h3>
+        <section class="value-tittle" id="jc-center">
+            <h3 class="property-tittle">justify-content: center</h3>
+            <p class="property-explanation">Essa é utilizada para justificar o conteudo ao centro.
+            </p>
+            <div class="parent-box">
+                <p>caixa-pai</p>
+                <div class="child-box">
+                    <p>1</p>
+                    <p>caixa-filho</p>
+                </div>
+                <div class="child-box">
+                    <p>2</p>
+                    <p>caixa-filho</p>
+                </div>
+                <div class="child-box">
+                    <p>3</p>
+                    <p>caixa-filho</p>
+                </div>
+            </div>
+        </section>
 
-        <p class="property-explanation">
-            Essa é a primeira propriedade que precisa ser declarada com o valor "flex" para que o flexbox funcione.
-        </p>
+        <section class="value-tittle" id="jc-space-around">
+            <h3 class="property-tittle">space-around</h3>
+        
+                <p class="property-explanation">Essa é utilizada para justificar o conteudo com espaço ao redor.                    
+                </p>
+                <div class="parent-box">
+                    <p>caixa-pai</p>
+                    <div class="child-box">
+                        <p>1</p>
+                        <p>caixa-filho</p>
+                    </div>
+                    <div class="child-box">
+                        <p>2</p>
+                        <p>caixa-filho</p>
+                    </div>
+                    <div class="child-box">
+                        <p>3</p>
+                        <p>caixa-filho</p>
+                    </div>
+                </div>
+        </section>
 
-    <div class="parent-box">
-        <p>parent-box</p>
-        <div class="child-box">
-            <p>1</p>
-            <p>child-box</p>
-        </div>
+        <section class="value-tittle" id="jc-space-between">
+            <h3 class="property-tittle">space-between</h3>
+        
+                <p class="property-explanation">Essa é utilizada para justificar os itens que são distribuidos de forma igual ao da linha; o primeiro item junto à borda inicial da linha, o ultimo junto à borda final da linha.                 
+                </p>
+                <div class="parent-box">
+                    <p>caixa-pai</p>
+                    <div class="child-box">
+                        <p>1</p>
+                        <p>caixa-filho</p>
+                    </div>
+                    <div class="child-box">
+                        <p>2</p>
+                        <p>caixa-filho</p>
+                    </div>
+                    <div class="child-box">
+                        <p>3</p>
+                        <p>caixa-filho</p>
+                    </div>
+                </div>
+        </section>
 
-        <div class="child-box">
-            <p>2</p>
-            <p>child-box</p>
-        </div>
-
-        <div class="child-box">
-            <p>3</p>
-            <p>child-box</p>
-        </div>
-
-    </div>
+        <section class="value-tittle" id="jc-space-evenly">
+            <h3 class="property-tittle">space-evenly</h3>
+        
+                <p class="property-explanation">Essa é utilizada para justificar os itens que são distribuidos de forma que o espaçamento entre quaisquer dos itens da linha(incluindo entre os itens e as bordas) seja igual.
+                </p>
+                <div class="parent-box">
+                    <p>caixa-pai</p>
+                    <div class="child-box">
+                        <p>1</p>
+                        <p>caixa-filho</p>
+                    </div>
+                    <div class="child-box">
+                        <p>2</p>
+                        <p>caixa-filho</p>
+                    </div>
+                    <div class="child-box">
+                        <p>3</p>
+                        <p>caixa-filho</p>
+                    </div>
+                </div>
+        </section>
    </section>
 
 </body>
